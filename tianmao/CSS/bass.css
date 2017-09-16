@@ -1,0 +1,22 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-29 18:00:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-11 09:43:51
+*/
+*{
+	margin: 0;/* 清楚bady身上的8px */
+	text-decoration: none; /* 清除a标签的下划线 */
+	padding:0 ;  /* input的值 */
+	/* box-sizing: content-box; */
+	box-sizing: border-box;  /* 浏览器自动计算内宽的值 */
+	list-style: none; /*  列表标签的默认样式 */
+	font-weight: normal;  /* 字体的粗细 */
+	font-style: normal;   /* 字体的斜体 */
+	border: 0;
+}
+img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
