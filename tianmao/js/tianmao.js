@@ -90,3 +90,18 @@
 		}
     };
 }
+{
+	let nei = document.querySelector("");
+    window.addEventListener("scroll",function () {
+        let lanto = document.documentElement.scrollTop===0? document.body : document.documentElement;
+        let ta1 = lanto.scrollTop;
+        for(let i=0;i<nei.length;i++){
+            if(ta1>nei[i].offsetTop-window.innerHeight){
+                let imgs=nei[i].querySelectorAll("img");
+                for(let i=0;i<imgs.length;i++){
+                    imgs[i].src=imgs[i].getAttribute("tta-src");
+                }
+            }
+        }
+    });
+}
